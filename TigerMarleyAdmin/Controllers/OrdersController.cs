@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TigerMarleyAdmin.Data;
-using TigerMarleyAdmin.DTO;
+using TigerMarleyAdmin.DTOs;
 using TigerMarleyAdmin.Models;
-
 
 namespace TigerMarleyAdmin.Controllers
 {
@@ -15,60 +14,52 @@ namespace TigerMarleyAdmin.Controllers
         public OrdersController(AppDbContext context)
         {
             _context = context;
-
-            if (!_context.Orders.Any())
-            {
-                _context.Orders.AddRange(new List<Order>
-                {
-                    new Order { Id = 101, Customer = "Priya Sharma", Product = "Classic White Shirt", Quantity = 2, Total = "₹2998", Status = "Delivered", Date = DateTime.Parse("2025-10-28") },
-                    new Order { Id = 102, Customer = "Aman Verma", Product = "Denim Jacket", Quantity = 1, Total = "₹2499", Status = "Pending", Date = DateTime.Parse("2025-10-30") },
-                    new Order { Id = 103, Customer = "Riya Patel", Product = "Tiger Hoodie", Quantity = 3, Total = "₹8397", Status = "Shipped", Date = DateTime.Parse("2025-10-29") },
-                    new Order { Id = 104, Customer = "Sahil Mehta", Product = "Graphic Tee", Quantity = 4, Total = "₹3996", Status = "Cancelled", Date = DateTime.Parse("2025-10-27") }
-                });
-                _context.SaveChanges();
-            }
         }
 
+        // ✅ Get all orders
         [HttpGet]
-        public ActionResult<IEnumerable<OrderDto>> GetOrders()
+        public async Task<IActionResult> GetOrders()
         {
-            var orders = _context.Orders
-                .Select(o => new OrderDto
-                {
-                    Id = o.Id,
-                    Customer = o.Customer,
-                    Product = o.Product,
-                    Quantity = o.Quantity,
-                    Total = o.Total,
-                    Status = o.Status,
-                    Date = o.Date
-                })
-                .ToList();
+            var orders = await _context.GetOrdersFromFunctionAsync(-1);
 
-            return Ok(orders);
+            var orderDtos = orders.Select(order => new OrderDto
+            {
+                Id = order.Id,
+                Customer = order.CustomerName,
+                Product = order.ProductName,
+                Quantity = order.Quantity,
+                Price = order.Price,
+                Status = order.Status,
+                Total = $"₹{order.Total:F2}",
+                Date = order.OrderDate.ToString("dd-MM-yyyy hh:mm:ss tt") // ✅ nicely formatted date
+            }).ToList();
+
+            return Ok(orderDtos);
         }
 
+        // ✅ Get single order by ID
         [HttpGet("{id}")]
-        public ActionResult<OrderDto> GetOrder(int id)
+        public async Task<IActionResult> GetOrder(int id)
         {
-            var order = _context.Orders
-                .Where(o => o.Id == id)
-                .Select(o => new OrderDto
-                {
-                    Id = o.Id,
-                    Customer = o.Customer,
-                    Product = o.Product,
-                    Quantity = o.Quantity,
-                    Total = o.Total,
-                    Status = o.Status,
-                    Date = o.Date
-                })
-                .FirstOrDefault();
+            var orders = await _context.GetOrdersFromFunctionAsync(id);
+            var order = orders.FirstOrDefault();
 
             if (order == null)
                 return NotFound(new { message = "Order not found" });
 
-            return Ok(order);
+            var orderDto = new OrderDto
+            {
+                Id = order.Id,
+                Customer = order.CustomerName,
+                Product = order.ProductName,
+                Quantity = order.Quantity,
+                Price = order.Price,
+                Status = order.Status,
+                Total = $"₹{order.Total:F2}",
+                Date = order.OrderDate.ToString("dd-MM-yyyy hh:mm:ss tt")
+            };
+
+            return Ok(orderDto);
         }
     }
 }

@@ -27,11 +27,11 @@ namespace TigerMarleyAdmin.Controllers
             decimal totalRevenue = 0;
             foreach (var order in deliveredOrShippedOrders)
             {
-                if (!string.IsNullOrEmpty(order.Total))
+                //if (!string.IsNullOrEmpty(order.Total))
                 {
-                    var numeric = new string(order.Total.Where(char.IsDigit).ToArray());
-                    if (decimal.TryParse(numeric, out var value))
-                        totalRevenue += value;
+                    //var numeric = new string(order.Total.Where(char.IsDigit).ToArray());
+                    //if (decimal.TryParse(numeric, out var value))
+                        //totalRevenue += value;
                 }
             }
 

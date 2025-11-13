@@ -3,52 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\supportticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\supportticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\productscontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\productscontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\supportticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\supportticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\dto\\supportticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\dto\\supportticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\dto\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\dto\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|solutionrelative:tigermarleyadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA5C4E18-059A-4565-9C04-F9E3CB1A116A}|TigerMarleyAdmin\\TigerMarleyAdmin.csproj|c:\\users\\venkata ramana\\desktop\\tiger marley admin dashboard\\tigermarleyadmin\\tigermarleyadmin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -70,167 +110,277 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\OrderDto.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\DTO\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\OrderDto.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\DTO\\OrderDto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAoAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:27:27.212Z",
+              "WhenOpened": "2025-11-13T08:11:01.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Customer.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Models\\Customer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:26:44.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Order.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Models\\Order.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:26:37.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Product.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Models\\Product.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:26:30.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\User.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\User.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Models\\User.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:38:19.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Program.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Program.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Program.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:41:15.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:23:45.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TigerMarleyAdmin\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Data\\AppDbContext.cs",
               "RelativeToolTip": "TigerMarleyAdmin\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswAsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwDoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:25:53.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:25:53.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductsContoller.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:23:23.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:24:03.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\AuthController.cs",
               "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAA2wEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAArwGoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T10:39:41.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:38:19.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Order.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:26:37.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Program.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAWwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:41:15.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SupportTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\SupportTicket.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\SupportTicket.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\SupportTicket.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\SupportTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:31:17.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Product.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:26:30.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\DTO\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\ProductDto.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\DTO\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T10:42:50.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsContoller.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\ProductsContoller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:23:23.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\Customer.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:26:44.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\DTO\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\CustomerDto.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\DTO\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:54:04.71Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wDYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:24:03.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:15:04.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SupportTicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\SupportTicketsController.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\SupportTicketsController.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\SupportTicketsController.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\SupportTicketsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:32:09.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SupportTicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\SupportTicketDto.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\DTO\\SupportTicketDto.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\SupportTicketDto.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\DTO\\SupportTicketDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAMwAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T08:31:36.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Models\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Models\\InventoryItem.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Models\\InventoryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:14:38.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InventoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\InventoryDto.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\DTO\\InventoryDto.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\InventoryDto.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\DTO\\InventoryDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:27:06.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswDUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:23:45.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AnalyticsController.cs",
               "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\AnalyticsController.cs",
               "RelativeDocumentMoniker": "TigerMarleyAdmin\\Controllers\\AnalyticsController.cs",
               "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Controllers\\AnalyticsController.cs",
               "RelativeToolTip": "TigerMarleyAdmin\\Controllers\\AnalyticsController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T06:24:21.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:24:21.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\OrderDto.cs",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\DTO\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\DTO\\OrderDto.cs",
+              "RelativeToolTip": "TigerMarleyAdmin\\DTO\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:27:27.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "TigerMarleyAdmin\\appsettings.json",
+              "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\appsettings.json",
+              "RelativeToolTip": "TigerMarleyAdmin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T10:40:35.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TigerMarleyAdmin\\Properties\\launchSettings.json",
@@ -238,24 +388,23 @@
               "RelativeToolTip": "TigerMarleyAdmin\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-03T06:42:45.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T06:42:45.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\.gitignore",
               "RelativeDocumentMoniker": "TigerMarleyAdmin\\.gitignore",
               "ToolTip": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\.gitignore",
               "RelativeToolTip": "TigerMarleyAdmin\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-05T08:33:28.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "TigerMarleyAdmin.csproj",
               "DocumentMoniker": "C:\\Users\\Venkata Ramana\\Desktop\\Tiger Marley Admin Dashboard\\TigerMarleyAdmin\\TigerMarleyAdmin\\TigerMarleyAdmin.csproj",
               "RelativeDocumentMoniker": "TigerMarleyAdmin\\TigerMarleyAdmin.csproj",

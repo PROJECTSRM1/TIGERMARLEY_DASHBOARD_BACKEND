@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TigerMarleyAdmin.Controllers.ForgotPasswordRequest",
+        "Type": "TigerMarleyAdmin.Models.ForgotPasswordRequest",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,23 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TigerMarleyAdmin.Controllers.LoginRequest",
+        "Type": "TigerMarleyAdmin.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TigerMarleyAdmin.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TigerMarleyAdmin.Models.ResetPasswordRequest",
         "IsRequired": true
       }
     ],
@@ -51,36 +67,16 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TigerMarleyAdmin.Controllers.SignupRequest",
+        "Type": "TigerMarleyAdmin.Models.SignupRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TigerMarleyAdmin.Controllers.CustomersController",
-    "Method": "GetCustomers",
-    "RelativePath": "api/Customers",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TigerMarleyAdmin.Models.Customer, TigerMarleyAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "TigerMarleyAdmin.Controllers.CustomersController",
+    "ContainingType": "TigerMarleyAdmin.Controllers.CustomerController",
     "Method": "GetCustomer",
-    "RelativePath": "api/Customers/{id}",
+    "RelativePath": "api/Customer/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -91,17 +87,43 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TigerMarleyAdmin.Controllers.CustomerController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Customer/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TigerMarleyAdmin.Controllers.InventoryController",
+    "Method": "GetInventoryItem",
+    "RelativePath": "api/Inventory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "TigerMarleyAdmin.Models.Customer",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TigerMarleyAdmin.Controllers.InventoryController",
+    "Method": "GetInventory",
+    "RelativePath": "api/Inventory/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TigerMarleyAdmin.Controllers.OrdersController",
@@ -111,17 +133,7 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TigerMarleyAdmin.DTO.OrderDto, TigerMarleyAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TigerMarleyAdmin.Controllers.OrdersController",
@@ -137,17 +149,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "TigerMarleyAdmin.DTO.OrderDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TigerMarleyAdmin.Controllers.ProductsController",
@@ -157,17 +159,7 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TigerMarleyAdmin.Models.Product, TigerMarleyAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TigerMarleyAdmin.Controllers.ProductsController",
@@ -183,16 +175,32 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TigerMarleyAdmin.Controllers.SupportTicketsController",
+    "Method": "GetTicket",
+    "RelativePath": "api/SupportTickets/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "TigerMarleyAdmin.Models.Product",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TigerMarleyAdmin.Controllers.SupportTicketsController",
+    "Method": "GetTickets",
+    "RelativePath": "api/SupportTickets/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
