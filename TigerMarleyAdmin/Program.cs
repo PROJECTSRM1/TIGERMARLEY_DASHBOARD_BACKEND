@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// ? PostgreSQL connection
+// PostgreSQL connection
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -35,8 +35,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// IMPORTANT for Azure Linux
+app.Urls.Clear();
+app.Urls.Add("http://0.0.0.0:8080");
+
 app.UseAuthorization();
 app.MapControllers();
 
-app.Run("http://localhost:5000");
+app.Run();
