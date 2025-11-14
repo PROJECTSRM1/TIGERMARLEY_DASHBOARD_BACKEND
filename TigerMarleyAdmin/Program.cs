@@ -29,13 +29,11 @@ var app = builder.Build();
 // Middlewares
 app.UseCors("AllowReactAll");
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// ALWAYS enable Swagger
+app.UseSwagger();
+app.UseSwaggerUI();
 
-// IMPORTANT for Azure Linux
+// REQUIRED FOR AZURE LINUX
 app.Urls.Clear();
 app.Urls.Add("http://0.0.0.0:8080");
 
