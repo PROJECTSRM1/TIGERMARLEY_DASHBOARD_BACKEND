@@ -14,13 +14,13 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactAll", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Your frontend URL
+        policy.WithOrigins("http://localhost:3000") // adjust when you have prod URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
 
-// PostgreSQL connection
+// PostgreSQL connection via ConnectionStrings:DefaultConnection
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -29,7 +29,7 @@ var app = builder.Build();
 // Middlewares
 app.UseCors("AllowReactAll");
 
-// Enable Swagger ALWAYS (Azure is Production, so this must run)
+// Always enable swagger (convenient for testing)
 app.UseSwagger();
 app.UseSwaggerUI();
 
@@ -38,13 +38,26 @@ app.Urls.Clear();
 app.Urls.Add("http://0.0.0.0:8080");
 
 app.UseAuthorization();
-
-// Map controllers
 app.MapControllers();
 
-// ROOT endpoint (to fix 404 on "/")
-app.MapGet("/", () => "API is running ✔ Azure OK");
+// Root test endpoint to avoid 404 at "/"
+app.MapGet("/", () => Results.Text("API is running ✔ Azure OK"));
 
-// Start application
+// Health-check endpoint (checks DB)
+app.MapGet("/health", async (AppDbContext db) =>
+{
+    try
+    {
+        // a lightweight DB call
+        await db.Database.ExecuteSqlRawAsync("SELECT 1");
+        return Results.Ok(new { status = "healthy" });
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(title: "db-error", detail: ex.Message);
+    }
+});
+
 app.Run();
+
 
