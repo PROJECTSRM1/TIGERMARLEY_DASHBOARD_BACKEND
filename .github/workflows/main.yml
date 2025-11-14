@@ -1,4 +1,4 @@
-name: Deploy DUDEAPI to Azure
+name: Build and Deploy to Azure Web App
 
 on:
   push:
@@ -8,30 +8,30 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
 
-      - name: Restore dependencies
+      - name: Restore
         run: dotnet restore
 
-      - name: Build project
+      - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      - name: Publish project
+      - name: Publish
         run: dotnet publish -c Release -o published --runtime linux-x64 --self-contained false
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "DUDEAPI"
-          slot-name: "production"
+          app-name: 'DUDEAPI'                  # your App Service name
+          slot-name: 'production'
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
           package: published
+
 
